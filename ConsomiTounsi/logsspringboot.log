@@ -1,0 +1,139 @@
+2020-03-05 00:38:51.532  INFO 4068 --- [main] t.c.spring.ConsomiTounsiApplication      : Starting ConsomiTounsiApplication on LAPTOP-VIM9OGG1 with PID 4068 (C:\STS\ConsomiTounsi\target\classes started by aymen in C:\STS\ConsomiTounsi)
+2020-03-05 00:38:51.537  INFO 4068 --- [main] t.c.spring.ConsomiTounsiApplication      : No active profile set, falling back to default profiles: default
+2020-03-05 00:38:52.630  INFO 4068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-05 00:38:52.676  INFO 4068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 JPA repository interfaces.
+2020-03-05 00:38:53.804  INFO 4068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-05 00:38:53.816  INFO 4068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-05 00:38:53.820  INFO 4068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 00:38:54.020  INFO 4068 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-03-05 00:38:54.022  INFO 4068 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2408 ms
+2020-03-05 00:38:54.326  INFO 4068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-05 00:38:54.472  INFO 4068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-05 00:38:54.798  INFO 4068 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-05 00:38:55.059  INFO 4068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-05 00:38:55.541  INFO 4068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-05 00:38:55.573  INFO 4068 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-05 00:38:57.035  INFO 4068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-05 00:38:57.056  INFO 4068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 00:38:57.172  WARN 4068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 00:38:57.383  INFO 4068 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 00:38:57.741  INFO 4068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2020-03-05 00:38:57.750  INFO 4068 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 7.035 seconds (JVM running for 9.802)
+2020-03-05 01:58:53.865  WARN 4068 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m27s889ms643µs600ns).
+2020-03-05 03:00:43.743  INFO 4068 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-05 03:00:43.768  INFO 4068 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:00:43.770  INFO 4068 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:00:43.787  INFO 4068 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-05 03:00:43.796  INFO 4068 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-05 03:00:56.809  INFO 15320 --- [main] t.c.spring.ConsomiTounsiApplication      : Starting ConsomiTounsiApplication on LAPTOP-VIM9OGG1 with PID 15320 (C:\STS\ConsomiTounsi\target\classes started by aymen in C:\STS\ConsomiTounsi)
+2020-03-05 03:00:56.812  INFO 15320 --- [main] t.c.spring.ConsomiTounsiApplication      : No active profile set, falling back to default profiles: default
+2020-03-05 03:00:57.458  INFO 15320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-05 03:00:57.483  INFO 15320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2020-03-05 03:00:58.049  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-05 03:00:58.068  INFO 15320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-05 03:00:58.068  INFO 15320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 03:00:58.180  INFO 15320 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-03-05 03:00:58.181  INFO 15320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1326 ms
+2020-03-05 03:00:58.363  INFO 15320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-05 03:00:58.458  INFO 15320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-05 03:00:58.643  INFO 15320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-05 03:00:58.779  INFO 15320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-05 03:00:59.037  INFO 15320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-05 03:00:59.060  INFO 15320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-05 03:01:00.500  INFO 15320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-05 03:01:00.506  INFO 15320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:01:00.568  WARN 15320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 03:01:00.704  INFO 15320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:01:00.925  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2020-03-05 03:01:00.931  INFO 15320 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 4.574 seconds (JVM running for 5.703)
+2020-03-05 03:02:56.822  INFO 15320 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-05 03:02:56.825  INFO 15320 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:02:56.826  INFO 15320 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:02:56.828  INFO 15320 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-05 03:02:56.835  INFO 15320 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-05 03:03:57.416  INFO 9240 --- [main] t.c.spring.ConsomiTounsiApplication      : Starting ConsomiTounsiApplication on LAPTOP-VIM9OGG1 with PID 9240 (C:\STS\ConsomiTounsi\target\classes started by aymen in C:\STS\ConsomiTounsi)
+2020-03-05 03:03:57.421  INFO 9240 --- [main] t.c.spring.ConsomiTounsiApplication      : No active profile set, falling back to default profiles: default
+2020-03-05 03:03:58.039  INFO 9240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-05 03:03:58.058  INFO 9240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2020-03-05 03:03:58.550  INFO 9240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-05 03:03:58.557  INFO 9240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-05 03:03:58.557  INFO 9240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 03:03:58.657  INFO 9240 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-03-05 03:03:58.658  INFO 9240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1195 ms
+2020-03-05 03:03:58.833  INFO 9240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-05 03:03:58.906  INFO 9240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-05 03:03:59.044  INFO 9240 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-05 03:03:59.142  INFO 9240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-05 03:03:59.363  INFO 9240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-05 03:03:59.379  INFO 9240 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-05 03:04:01.438  INFO 9240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-05 03:04:01.448  INFO 9240 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:04:01.512  WARN 9240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 03:04:01.688  INFO 9240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:04:01.933  INFO 9240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2020-03-05 03:04:01.938  INFO 9240 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 4.897 seconds (JVM running for 5.759)
+2020-03-05 03:47:08.840  INFO 3928 --- [main] t.c.spring.ConsomiTounsiApplication      : Starting ConsomiTounsiApplication on LAPTOP-VIM9OGG1 with PID 3928 (C:\STS\ConsomiTounsi\target\classes started by aymen in C:\STS\ConsomiTounsi)
+2020-03-05 03:47:08.843  INFO 3928 --- [main] t.c.spring.ConsomiTounsiApplication      : No active profile set, falling back to default profiles: default
+2020-03-05 03:47:09.721  INFO 3928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-05 03:47:09.861  INFO 3928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 1 JPA repository interfaces.
+2020-03-05 03:47:10.656  INFO 3928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-05 03:47:10.666  INFO 3928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-05 03:47:10.668  INFO 3928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 03:47:10.812  INFO 3928 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-03-05 03:47:10.813  INFO 3928 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1918 ms
+2020-03-05 03:47:11.114  INFO 3928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-05 03:47:11.203  INFO 3928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-05 03:47:11.345  INFO 3928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-05 03:47:11.477  INFO 3928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-05 03:47:11.851  INFO 3928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-05 03:47:11.875  INFO 3928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-05 03:47:13.616  INFO 3928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-05 03:47:13.630  INFO 3928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:47:14.294  WARN 3928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 03:47:14.569  INFO 3928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:47:14.987  INFO 3928 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-05 03:47:14.997  INFO 3928 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-05 03:47:15.005 ERROR 3928 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2020-03-05 03:47:15.008  INFO 3928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:47:15.009  INFO 3928 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:47:15.012  INFO 3928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-05 03:47:15.034  INFO 3928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-05 03:47:40.907  INFO 9240 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-05 03:47:40.918  INFO 9240 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:47:40.920  INFO 9240 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:47:40.925  INFO 9240 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-05 03:47:40.936  INFO 9240 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-05 03:48:26.547  INFO 1928 --- [main] t.c.s.ConsomiTounsiApplicationTests      : Starting ConsomiTounsiApplicationTests on LAPTOP-VIM9OGG1 with PID 1928 (started by aymen in C:\STS\ConsomiTounsi)
+2020-03-05 03:48:26.552  INFO 1928 --- [main] t.c.s.ConsomiTounsiApplicationTests      : No active profile set, falling back to default profiles: default
+2020-03-05 03:48:27.583  INFO 1928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-05 03:48:27.720  INFO 1928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 1 JPA repository interfaces.
+2020-03-05 03:48:28.882  INFO 1928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-05 03:48:29.007  INFO 1928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-05 03:48:29.241  INFO 1928 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-05 03:48:30.203  INFO 1928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-05 03:48:30.454  INFO 1928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-05 03:48:30.499  INFO 1928 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-05 03:48:32.063  INFO 1928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-05 03:48:32.076  INFO 1928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:48:33.012  WARN 1928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-05 03:48:33.502  INFO 1928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:48:34.157  INFO 1928 --- [main] t.c.s.ConsomiTounsiApplicationTests      : Started ConsomiTounsiApplicationTests in 8.046 seconds (JVM running for 9.652)
+2020-03-05 03:48:34.493  INFO 1928 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 03:48:34.496  INFO 1928 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-05 03:48:34.499  INFO 1928 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-05 03:48:34.532  INFO 1928 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
