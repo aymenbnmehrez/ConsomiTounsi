@@ -1,0 +1,25 @@
+2020-03-21 18:08:58.543  INFO 11688 --- [main] t.c.spring.ConsomiTounsiApplication      : Starting ConsomiTounsiApplication on LAPTOP-VIM9OGG1 with PID 11688 (C:\STS\ConsomiTounsi\target\classes started by aymen in C:\STS\ConsomiTounsi)
+2020-03-21 18:08:58.552  INFO 11688 --- [main] t.c.spring.ConsomiTounsiApplication      : No active profile set, falling back to default profiles: default
+2020-03-21 18:08:59.487  INFO 11688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-21 18:08:59.598  INFO 11688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 1 JPA repository interfaces.
+2020-03-21 18:09:00.374  INFO 11688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-03-21 18:09:00.384  INFO 11688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-21 18:09:00.385  INFO 11688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-21 18:09:00.520  INFO 11688 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2020-03-21 18:09:00.521  INFO 11688 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1917 ms
+2020-03-21 18:09:00.721  INFO 11688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-21 18:09:00.910  INFO 11688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-21 18:09:01.116  INFO 11688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-21 18:09:01.327  INFO 11688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-21 18:09:01.703  INFO 11688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-21 18:09:01.732  INFO 11688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-21 18:09:02.198  WARN 11688 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): tn.consomiTounsi.spring.entity.CommandLinePk
+2020-03-21 18:09:02.199  WARN 11688 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): tn.consomiTounsi.spring.entity.CommandLinePk
+2020-03-21 18:09:02.200  WARN 11688 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): tn.consomiTounsi.spring.entity.RatingPk
+2020-03-21 18:09:02.200  WARN 11688 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): tn.consomiTounsi.spring.entity.RatingPk
+2020-03-21 18:09:03.932  INFO 11688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-21 18:09:03.938  INFO 11688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-21 18:09:04.415  WARN 11688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-21 18:09:04.635  INFO 11688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-21 18:09:04.958  INFO 11688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2020-03-21 18:09:04.960  INFO 11688 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 7.065 seconds (JVM running for 9.281)
