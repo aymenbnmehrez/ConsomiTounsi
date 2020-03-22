@@ -30,6 +30,7 @@ public class ConsomiTounsiApplicationTests {
 		Client c =new Client();
 		DeliveryMan dm = new DeliveryMan();
 		//Delivery d = new Delivery(date,12f,"in progress");
+		 
 		
 		//ds.addDelivery(d);
 		ds.getAllDeliveries();
