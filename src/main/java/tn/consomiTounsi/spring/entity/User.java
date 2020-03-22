@@ -43,6 +43,9 @@ public class User implements Serializable{
 	
 	@Column(name = "USER_PHONE")
 	private int phoneNbr;
+	
+	@Column(name= "ADDRESS")
+	private Address Address;
 
 	public Long getId() {
 		return id;
