@@ -1,5 +1,5 @@
 package tn.consomiTounsi.spring.service;
 
-public class ProviderService {
+public class ProviderServiceImpl {
 
 }

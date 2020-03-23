@@ -14,7 +14,6 @@ import tn.consomiTounsi.spring.entity.Client;
 import tn.consomiTounsi.spring.entity.Delivery;
 import tn.consomiTounsi.spring.entity.DeliveryMan;
 import tn.consomiTounsi.spring.service.IDeliveryService;
-import tn.consomiTounsi.spring.service.IPostService;
 import tn.consomiTounsi.spring.entity.Post;
 import tn.consomiTounsi.spring.entity.User;
 
@@ -26,7 +25,7 @@ public class ConsomiTounsiApplicationTests {
 	@Autowired
 	IDeliveryService ds;
 	@Autowired
-	IPostService ps;
+	//IPostService ps;
 	
 	@Test
 	public void contextLoads() throws ParseException {
@@ -41,9 +40,9 @@ public class ConsomiTounsiApplicationTests {
 	//	ds.getAllDeliveries();
 	//	ps.addPost(p1);
 	//		ps.retrieveAllPosts();
-		ps.retrievePost(2L);
+		//ps.retrievePost(2L);
 		//	ps.updatePost(p1);
-			ps.deletePost("1");	
+			//ps.deletePost("1");	
 	}
 
 }
