@@ -79,3 +79,8 @@
 2020-03-23 19:35:35.721  INFO 10388 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-03-23 19:35:36.477  INFO 10388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
 2020-03-23 19:35:36.481  INFO 10388 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 36.096 seconds (JVM running for 38.53)
+2020-03-23 19:47:17.806  INFO 10388 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-23 19:47:17.813  INFO 10388 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-23 19:47:17.823  INFO 10388 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-23 19:47:17.828  INFO 10388 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-23 19:47:17.962  INFO 10388 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
