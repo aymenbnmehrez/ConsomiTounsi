@@ -30,9 +30,27 @@ public class Post implements Serializable{
 	@Column(name = "POST_TITLE")
 	private String title;
 	
-	@Column(name = "POST_CONTENT")
-	private String content;
 	
+
+	@Override
+	public String toString() {
+		return "Post [title=" + title + ", picture=" + picture + ", datePost=" + datePost + ", users=" + users + "]";
+	}
+
+	public Post(Long id, String title, String picture, Date datePost) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.picture = picture;
+		this.datePost = datePost;
+	}
+
+	public Post(String title, String picture, Date datePost) {
+		super();
+		this.title = title;
+		this.picture = picture;
+		this.datePost = datePost;
+	}
 
 	@Column(name = "POST_PICTURE", nullable = true)
 	private String picture;
@@ -55,18 +73,15 @@ public class Post implements Serializable{
 		return title;
 	}
 
+	public Post() {
+		super();
+	}
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
 
-	public String getContent() {
-		return content;
-	}
-
-	public void setContent(String content) {
-		this.content = content;
-	}
-
+	
 	public User getUsers() {
 		return users;
 	}
