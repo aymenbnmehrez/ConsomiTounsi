@@ -106,3 +106,8 @@ Using generated security password: dbb1d0e0-841c-469f-8140-78e5e7d448fa
 2020-03-26 15:26:32.365  INFO 13360 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-03-26 15:26:32.643  INFO 13360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
 2020-03-26 15:26:32.645  INFO 13360 --- [main] t.c.spring.ConsomiTounsiApplication      : Started ConsomiTounsiApplication in 7.916 seconds (JVM running for 8.879)
+2020-03-26 15:53:43.381  INFO 13360 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 15:53:43.387  INFO 13360 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 15:53:43.390  INFO 13360 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 15:53:43.393  INFO 13360 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 15:53:43.418  INFO 13360 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
