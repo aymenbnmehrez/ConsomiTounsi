@@ -29,6 +29,9 @@ public class Order implements Serializable {
 	@Column(name = "ORDER_AMOUNT")
 	private float amount;
 	
+	@Column(name = "ORDER_DELIVERY_PRICE")
+	private float deliveryPrice;
+	
 	@Column(name = "ORDER_ADRESS")
 	private String adress;
 	
@@ -38,6 +41,16 @@ public class Order implements Serializable {
 	@Column(name = "ORDER_STATUS")
 	private String status;
 	
+	public float getDeliveryPrice() {
+		return deliveryPrice;
+	}
+
+
+	public void setDeliveryPrice(float deliveryPrice) {
+		this.deliveryPrice = deliveryPrice;
+	}
+
+
 	@ManyToOne
 	Client clients;
 	

@@ -95,6 +95,12 @@ public class CommandLine implements Serializable {
 	public CommandLine() {
 		setAddedDate(new Date());
 	}
+
+	@Override
+	public String toString() {
+		return "CommandLine [commandLinePk=" + commandLinePk + ", order=" + order + ", product=" + product
+				+ ", quantity=" + quantity + ", amount=" + amount + ", addedDate=" + addedDate + "]";
+	}
 	
 	
 
