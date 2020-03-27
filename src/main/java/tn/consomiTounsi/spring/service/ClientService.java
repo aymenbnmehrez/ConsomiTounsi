@@ -13,7 +13,7 @@ import tn.consomiTounsi.spring.repository.IClientRepository;
 public class ClientService implements IClientService {
 	@Autowired
 	IClientRepository clientRepository;
-	private static final Logger l = LogManager.getLogger(IUserService.class);
+	private static final Logger l = LogManager.getLogger(IClientService.class);
 
 	
 	public List<Client> retrieveAllClients() {

@@ -14,7 +14,7 @@ import tn.consomiTounsi.spring.repository.IProviderRepository;
 public class ProviderService implements IProviderService {
 	@Autowired
 	IProviderRepository providerRepository;
-	private static final Logger l = LogManager.getLogger(IUserService.class);
+	private static final Logger l = LogManager.getLogger(IProviderService.class);
 
 	@Override
 	public List<Provider> retrieveAllProviders() {
