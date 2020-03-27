@@ -1,6 +1,7 @@
 package tn.consomiTounsi.spring.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
@@ -8,7 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-
 @DiscriminatorValue(value="PROVIDER")
 public class Provider extends User implements Serializable {
 
@@ -36,6 +36,10 @@ public class Provider extends User implements Serializable {
 	private String marque;
 	@Column(name = "FAX",nullable=true)
 	private String fax;
+
+	@OneToMany(mappedBy = "provider")
+	private List<ProviderEntry> quantitiestyEntry;
+
 	public String getMarque() {
 		return marque;
 	}
@@ -85,14 +89,12 @@ public class Provider extends User implements Serializable {
 				+ "]";
 	}
 
-	public Provider(Long id) {
-		super(id);
-	
+	public void setQuantitiestyEntry(List<ProviderEntry> quantitiestyEntry) {
+		this.quantitiestyEntry = quantitiestyEntry;
 	}
 
-	public Provider(Long id, String username, String password) {
-		super(id, username, password);
-		// TODO Auto-generated constructor stub
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 	

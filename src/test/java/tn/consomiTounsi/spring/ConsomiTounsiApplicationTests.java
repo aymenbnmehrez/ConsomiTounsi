@@ -26,31 +26,12 @@ import tn.consomiTounsi.spring.service.IUserService;
 @SpringBootTest
 public class ConsomiTounsiApplicationTests {
 
-	@Autowired
-	IUserService us;
-	@Autowired
-	IProviderService ps;
-	@Autowired
-	IClientService css;
-	@Autowired
-	IDeliveryManService as;
 
 
 	@Test
 
 	public void contextLoads() throws ParseException {
-/*
-		Provider pp = new Provider(2L, "aziz", "sxc");
-		Client c = new Client("aymeng", "passworddd", "aymen", "BenMehrez", "ayymen@gmail.com", "image", 22222222,
-				null);
-		DeliveryMan a = new DeliveryMan("aymennn", "password", "aymen", "BenMehrez", "aymen@gmail.com", "image",
-				22222222, null);
-		// ps.deleteProvider("3");
-		us.mettreAjourEmailByUsername("ayymennnnn@gmail.com", "aymeng");*/
-		// us.addUser(pp);
-		// as.addDeliveryMan(a);
-		// css.addClient(c);
-		// us.retrieveAllUsers();
+
 
 	}
 
