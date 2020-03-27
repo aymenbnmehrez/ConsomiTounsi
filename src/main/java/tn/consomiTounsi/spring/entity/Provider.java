@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -52,9 +53,6 @@ public class Provider extends User implements Serializable {
 	public void setFax(String fax) {
 		this.fax = fax;
 	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 	/*
 	@Override
 	public String toString() {
@@ -96,9 +94,4 @@ public class Provider extends User implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-
-	
-
-	
-
 }

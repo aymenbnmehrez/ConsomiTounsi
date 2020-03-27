@@ -20,7 +20,6 @@ import tn.consomiTounsi.spring.service.IClientService;
 import tn.consomiTounsi.spring.service.IDeliveryManService;
 import tn.consomiTounsi.spring.service.IDeliveryService;
 import tn.consomiTounsi.spring.service.IProviderService;
-import tn.consomiTounsi.spring.service.IUserService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
