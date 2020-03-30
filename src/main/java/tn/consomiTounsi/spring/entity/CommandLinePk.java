@@ -18,28 +18,6 @@ public class CommandLinePk implements Serializable{
 		return product_id;
 	}
 
-	public void setProduct_id(Long product_id) {
-		this.product_id = product_id;
-	}
-
-	public Long getOrder_id() {
-		return order_id;
-	}
-
-	public void setOrder_id(Long order_id) {
-		this.order_id = order_id;
-	}
-
-	public CommandLinePk(Long product_id, Long order_id) {
-		super();
-		this.product_id = product_id;
-		this.order_id = order_id;
-	}
-
-	public CommandLinePk() {
-		super();
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -70,6 +48,32 @@ public class CommandLinePk implements Serializable{
 			return false;
 		return true;
 	}
+
+	public void setProduct_id(Long product_id) {
+		this.product_id = product_id;
+	}
+
+	public Long getOrder_id() {
+		return order_id;
+	}
+
+	public void setOrder_id(Long order_id) {
+		this.order_id = order_id;
+	}
+
+	public CommandLinePk(Long product_id, Long order_id) {
+		super();
+		this.product_id = product_id;
+		this.order_id = order_id;
+	}
+
+	public CommandLinePk() {
+		super();
+	}
+
+	
+
+
 
 
 

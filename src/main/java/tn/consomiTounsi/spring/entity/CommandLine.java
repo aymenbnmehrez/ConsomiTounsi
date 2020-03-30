@@ -32,7 +32,7 @@ public class CommandLine implements Serializable {
 	private int quantity ;
 	
 	@Column(name = "COMMAND_LINE_AMOUNT")
-	private float amount;
+	private double amount;
 	
 	@Temporal(TemporalType.DATE)
 	private Date addedDate;
@@ -72,11 +72,11 @@ public class CommandLine implements Serializable {
 	}
 
 
-	public float getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 
-	public void setAmount(float amount) {
+	public void setAmount(double amount) {
 		this.amount = amount;
 	}
 

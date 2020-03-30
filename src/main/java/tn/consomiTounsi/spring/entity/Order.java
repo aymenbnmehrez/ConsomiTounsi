@@ -27,7 +27,7 @@ public class Order implements Serializable {
 	private Long id; // Clé primaire
 
 	@Column(name = "ORDER_AMOUNT")
-	private float amount;
+	private double amount;
 	
 	@Column(name = "ORDER_ADRESS")
 	private String adress;
@@ -81,12 +81,12 @@ public class Order implements Serializable {
 	}
 
 
-	public float getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 
 
-	public void setAmount(float amount) {
+	public void setAmount(double amount) {
 		this.amount = amount;
 	}
 

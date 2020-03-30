@@ -6,40 +6,25 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "T_CATEGORY")
-public class Category implements Serializable{
-	
+public class Category implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "CATEGORY_ID")
-	private Long id; // Clé primaire
-	
 	@Column(name = "CATEGORY_NAME")
 	private String name;
-	
+
 	@Column(name = "CATEGORY_DESCRIPTION")
 	private String description;
-	
-	@OneToMany(cascade = CascadeType.ALL,mappedBy="categories")
+
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "categories")
 	private Set<Product> products;
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;
@@ -68,7 +53,10 @@ public class Category implements Serializable{
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Category [name=" + name + ", description=" + description + ", products=" + products + "]";
+	}
 
 }

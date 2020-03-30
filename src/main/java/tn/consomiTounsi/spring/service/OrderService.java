@@ -59,7 +59,7 @@ public class OrderService implements IOrderService{
 	
 		
 		Order order = iOrderRepository.findById(Long.parseLong(id)).get();
-		float amountOrder=0;
+		double amountOrder=0;
 
 		List<CommandLine> commandLines = (List<CommandLine>) iCommandLineRepository.findAll();
 		for(CommandLine commandLine:commandLines){

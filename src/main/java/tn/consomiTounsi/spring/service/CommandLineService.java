@@ -47,8 +47,8 @@ public class CommandLineService implements ICommandLineService{
 		// TODO Auto-generated method stub
 		CommandLinePk clPk=new CommandLinePk(Long.parseLong(idProd),Long.parseLong(idOrder));
 		List<CommandLine> cl =iCommandLineRepository.findByCommandLinePk(clPk);
-		float amountCommandLine;
-		float productPrice=cl.get(0).getProduct().getPrice();
+		double amountCommandLine;
+		double productPrice=cl.get(0).getProduct().getPrice();
 		L.info("product price : "+productPrice);
 		amountCommandLine=cl.get(0).getQuantity()*productPrice;
 		L.info("amlount command line : "+amountCommandLine);
