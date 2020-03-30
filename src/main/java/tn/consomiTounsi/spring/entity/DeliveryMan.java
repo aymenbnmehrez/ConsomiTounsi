@@ -16,12 +16,9 @@ public class DeliveryMan extends User implements Serializable {
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy="deliveryMans")
 	private Set<Delivery> deliveries;
-
-
 	public Set<Delivery> getDeliveries() {
 		return deliveries;
 	}
-
 
 	public void setDeliveries(Set<Delivery> deliveries) {
 		this.deliveries = deliveries;
